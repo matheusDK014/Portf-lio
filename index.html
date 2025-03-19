@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MountK</title>
+    <link rel="icon" type="image/png" href="imgs/favicon_io/favicon-32x32.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        nav ul li {
+            cursor: pointer;
+            list-style: none;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li:hover {
+            background-color: #6319CD;
+            cursor: pointer;
+        }
+        img {
+            align-items: end;
+            size-adjust: var(img); width: 873px; height: 491px;
+        }
+
+        .sidebar {
+            width: 30vw;
+            height: 100vh;
+            background-color: #6319CD;
+        }
+
+        .sidebar h1 {
+            position: absolute;
+            font-size: 2rem;
+            text-wrap: nowrap;
+            left: 20%;
+        }
+
+        .hire {
+            background-color: #6319CD;
+            color: white;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .hire:hover {
+            background-color: #4B0E8C;
+            cursor: pointer;
+        }
+
+        #wrapper {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="capa">
+        <img src="imgs/Myportfólio.webp">
+    </div>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li>About me</li>
+                <li>Services</li>
+                <li>Customers</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+                <li class="hire">Hire me</li>
+            </ul>
+        </nav>
+
+    </div>
+</body>
+</html>
