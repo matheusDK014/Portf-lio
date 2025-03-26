@@ -1,0 +1,48 @@
+<body bgcolor="black" style="margin: 0; padding: 0; display: flex; justify-content: flex-end; align-items: flex-start;">
+
+    <button class="dynamic-button">About Me</button>
+    <button class="dynamic-button">Projects</button>
+    <button class="dynamic-button">My Dev Languages</button>
+    <button class="dynamic-button">Site</button>
+    <button class="dynamic-button">Contact Us</button>
+    <button class="hire-me-button">Hire Me!</button>
+
+    <style>
+        .dynamic-button {
+            text-size-adjust: 18px;
+            text-align: start;
+            height: 103px;
+            border: none;
+            background-color: transparent; /* No background color */
+            color: white; /* Default text color */
+            padding: 0px 20px; /* Adjust padding for size */
+            margin: 0; /* Remove margin */
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        .dynamic-button + .dynamic-button + .hire-me-button{
+            margin-left: 0px; /* Add space between buttons */
+        }
+
+        .dynamic-button:hover {
+            background-color: #6319CD; /* Color on hover */
+            color: white; /* Text color on hover */
+        }
+        .hire-me-button {
+            width: 106px;
+            height: 44px;
+            border: none;
+            border-radius: 7px;
+            background-color: #6319CD; /* Button color */
+            color: white; /* Text color */
+            cursor: pointer;
+            margin-left: 35px; /* Space between the last dynamic button and this button */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        .hire-me-button:hover {
+            background-color: #340874; /* Darker on hover */
+        }
+    </style>
+
+</body>
