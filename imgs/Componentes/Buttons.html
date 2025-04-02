@@ -1,13 +1,27 @@
 <body bgcolor="black" style="margin: 0; padding: 0; display: flex; justify-content: flex-end; align-items: flex-start;">
-
-    <button class="dynamic-button">About Me</button>
-    <button class="dynamic-button">Projects</button>
-    <button class="dynamic-button">My Dev Languages</button>
-    <button class="dynamic-button">Site</button>
-    <button class="dynamic-button">Contact Us</button>
-    <button class="hire-me-button">Hire Me!</button>
-
+        <div class="menu-top">
+            <button class="dynamic-button">About Me</button>
+            <button class="dynamic-button">Projects</button>
+            <button class="dynamic-button">My Dev Languages</button>
+            <button class="dynamic-button">Site</button>
+            <button class="dynamic-button">Contact Us</button>
+            <div class="button-center"><button class="hire-me-button">Hire Me!</button></div>
+        </div>
     <style>
+
+            .menu-top {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .button-center {
+            display: flex;
+            height: 103px;
+            align-items: flex-end;
+            padding-bottom: 26px;
+}
+
         .dynamic-button {
             text-size-adjust: 18px;
             text-align: start;
@@ -16,6 +30,7 @@
             background-color: transparent; /* No background color */
             color: white; /* Default text color */
             padding: 0px 20px; /* Adjust padding for size */
+            padding-block-start: 35px;
             margin: 0; /* Remove margin */
             cursor: pointer;
             transition: background-color 0.3s ease; /* Smooth transition */
@@ -34,6 +49,7 @@
             height: 44px;
             border: none;
             border-radius: 7px;
+            display: center;
             background-color: #6319CD; /* Button color */
             color: white; /* Text color */
             cursor: pointer;
